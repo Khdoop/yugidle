@@ -1,0 +1,13 @@
+// styles in src/style directory are applied to the whole page
+body {
+	padding: 70px 0;
+	overflow: hidden;
+}
+
+.card {
+	background: url("../images/spritesheet.png");
+	width: 84px;
+	height: 96px;
+	display: inline-block;
+	text-align: left;
+}

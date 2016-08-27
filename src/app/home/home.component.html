@@ -1,0 +1,10 @@
+<div class="col-md-6">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<div class="panel-title">Card collection</div>
+		</div>
+		<div class="panel-body collection-scrollable row center-block text-center mCustomScrollbar" data-mcs-theme="dark-thin">
+			<span *ngFor="let card of db.cards" class="card" [style.background-position]="card.x + 'px ' + card.y + 'px'"></span>
+		</div>
+	</div>
+</div>
